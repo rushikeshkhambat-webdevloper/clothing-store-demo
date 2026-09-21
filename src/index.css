@@ -1,5 +1,5 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap');
+@import "tailwindcss";
 
 /* Tailwind v4 theme tokens -> bg-cream, text-ink, border-mist, text-sage, font-serif, font-sans */
 @theme {
