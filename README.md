@@ -1,21 +1,103 @@
-<<<<<<< HEAD
-# React + Vite
+# 👕 Clothing Store — Frontend Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive e-commerce frontend built to showcase a clean shopping experience with product listings, cart flow, and mobile-first design.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** https://clothing-store-demo-l39m.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🛍️ Product listing with categories
+- 🔍 Product detail view
+- 🛒 Add to cart with live quantity update
+- 📱 Fully responsive (mobile, tablet, desktop)
+- 🎨 Clean, minimal UI with modern typography
+- ⚡ Fast loading with Vite build
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# clothing-store-demo
-Modern editorial clothing store demo built with React + Tailwind
->>>>>>> 23cae44046aca9f58d5b5ec75a4951517883c7dc
+## 🛠️ Tech Stack
+
+| Layer | Tech |
+|-------|------|
+| Framework | React.js |
+| Build Tool | Vite |
+| Styling | CSS / Tailwind CSS |
+| Routing | React Router |
+| Deployment | Vercel |
+
+---
+
+## 📸 Screenshots
+
+### Home / Product Listing
+![Home](./screenshots/home.png)
+
+### Product Details
+![Product](./screenshots/product.png)
+
+### Cart
+![Cart](./screenshots/cart.png)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18+)
+- npm or yarn
+
+### Installation
+
+```bash
+git clone https://github.com/rushikeshkhambat-webdevloper/clothing-store-demo.git
+cd clothing-store-demo
+npm install
+npm run dev
+```
+
+Open http://localhost:5173 in your browser.
+
+### Build for production
+
+```bash
+npm run build
+npm run preview
+```
+
+---
+
+## 📁 Folder Structure
+
+```
+src/
+├── components/     # Reusable UI components
+├── pages/          # Route pages
+├── assets/         # Images, icons
+├── styles/         # Global styles
+└── App.jsx         # Root component
+```
+
+---
+
+## 🔮 Future Improvements
+
+- [ ] Real backend with product API
+- [ ] User authentication
+- [ ] Payment gateway integration
+- [ ] Wishlist feature
+- [ ] Search & filter
+
+---
+
+## 👨‍💻 Author
+
+**Rushikesh Khambat**
+- GitHub: https://github.com/rushikeshkhambat-webdevloper
+
+---
+
+## 📄 License
+
+This project is open source and available under the MIT License.
